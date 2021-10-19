@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid rgb(168, 18, 148);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+caption {
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+th {
+    background-color: cadetblue;
+    color: rgb(205, 235, 37);
+}
+
+td {
+    background-color: darkgray;
+    color: rgb(0, 60, 255);
+}
+
+table {
+    
+}
