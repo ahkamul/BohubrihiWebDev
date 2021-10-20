@@ -1,4 +1,6 @@
-table, th, td {
+    /*  css for First Table : */
+
+/* table, th, td {
     border: 1px solid rgb(168, 18, 148);
     border-collapse: collapse;
     padding: 10px;
@@ -23,4 +25,47 @@ td {
 
 table {
     
+} */
+
+        /* css for Second Table:  */
+/* 
+table {
+    border: 1px solid wheat;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: blue;
+    
+}
+
+th, td {
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    color: #ffcf00;
+} */
+
+        /* css for Third Table :  */
+
+table {
+    border: 3px solid #f42494;
+    background-color: midnightblue;
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+
+caption {
+    font-size: 23px;
+    color: rgb(160, 34, 160);
+    padding-bottom: 10px;
 }
