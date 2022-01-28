@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formProjectVrDr</title>
+</head>
+<body>
+    <form action="">
+        <h1>Appendix A - Sample US Death Certificate Form</h1>
+        <p>The sample death reporting form included in this content profile reflects much of the data captured for the U.S. Standard Certificate of Death. However, the VRDR content profile may be modified to include and accommodate international death reporting requirements. </p>
+
+        <h2>Death Reporting For Vital Records</h2>
+
+        <div>
+            <h3>Decedent's Name (include AKA's if any)</h3>
+        
+                <fieldset>
+                    <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    <label for="middleName">Middle Name</label>
+                        <input type="text" id="middleName" name="middleName">
+                    <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+                    <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                    <label for="socialSecNum">Social Security Number</label>
+                        <input type="number" id="socialSecNum" name="socialSecNum">
+                    <label for="facilityName">Facility Name</label>
+                        <input type="text" id="facilityName" name="facilityName">
+                </fieldset>
+        </div>
+        <div>
+            <h3>Decedent of Hispanic Origin</h3>
+            <hr>
+            <h4>Check the box that best describes Whether the decedent is Spanish / Hispanic / Latino. Check the "No" box if decedent is not Spanish / Hispanic / Latino:</h4>
+
+            <input type="radio" id="shl" name="decedentNationality" value="No, not Spanish/Hispanic/Latino">
+                <label for="shl">No, not Spanish/Hispanic/Latino</label>
+            <input type="radio" id="mmAc" name="decedentNationality" value="Yes, Mexican, Mexican American, Chicano">
+                <label for="mmAc">Yes, Mexican, Mexican American, Chicano</label>
+            <input type="radio" id="puertoRican" name="decedentNationality" value="Yes, Puerto Rican">
+                <label for="puertoRican">Yes, Puerto Rican</label>
+            <input type="radio" id="cuban" name="decedentNationality" value="Yes, Cuban">
+                <label for="cuban">Yes, Cuban</label>
+            <input type="radio" id="other" name="decedentNationality" value="Yes, other Spanish/Hispanic/Latino (Specify):">
+                <label for="other">Yes, other Spanish/Hispanic/Latino (Specify):</label>
+
+            <input type="text">
+        </div>
+
+        <div>
+            <h3>Decedent's Race</h3>
+            <hr>
+            <h4>Check one or more races to indicate what the Decedent considered himself or herself to be:</h4>
+            <input type="radio" id="white" name="decedentRace" value="White">
+                <label for="white">White</label>
+            <input type="radio" id="black" name="decedentRace" value="Black or African American">
+                <label for="black">Black</label>
+            <input type="radio" id="americanIndian" name="decedentRace" value="American Indian or Alaska Native">
+                <label for="americanIndian">American Indian or Alaska Native</label>
+
+            <label for="principalTribe">(Name of the enrolled or principal tribe)</label>
+                <input type="text" id="principalTribe" name="principalTribe">
+
+            <input type="radio" id="asianIndian" name="decedentRace" value="Asian Indian">
+                <label for="asianIndian">Asian Indian</label>
+            <input type="radio" id="chinese" name="decedentRace" value="Chinese">
+                <label for="chinese">Chinese</label>
+            <input type="radio" id="filipino" name="decedentRace" value="Filipino">
+                <label for="filipino">Filipino</label>
+            <input type="radio" id="japanese" name="decedentRace" value="Japanese">
+                <label for="japanese">Japanese</label>
+            <input type="radio" id="korean" name="decedentRace" value="Korean">
+                <label for="korean">Korean</label>
+            <input type="radio" id="vietnamese" name="decedentRace" value="Vietnamese">
+                <label for="vietnamese">Vietnamese</label>
+            <input type="radio" id="otherAsian" name="decedentRace" value="Other Asian (Specify)">
+                <label for="otherAsian">Other Asian (Specify)</label>
+                <input type="text">
+            <input type="radio" id="nativeHawaiian" name="decedentRace" value="Native Hawaiian">
+                <label for="nativeHawaiin">Native Hawaiian</label>
+            <input type="radio" id="guamanian" name="decedentRace" value="Guamanian or Chamorro">
+                <label for="guamanian">Guamanian or Chamorro</label>
+            <input type="radio" id="samoan" name="decedentRace" value="Samoan">
+                <label for="samoan">Samoan</label>
+
+            <input type="radio" id="otherPacificIslander" name="decedentRace" value="Other Pacific Islander (Specify)">
+                <label for="otherPacificIslander">Other Pacific Islander (Specify)</label>
+                <input type="text">
+            <input type="radio" id="otherDecedentRace" name="decedentRace" value="Other (Specify)">
+                <label for="otherDecedentRace">Other (Specify)</label>
+                <input type="text">
+            
+        </div>
+
+        <div>
+            <h3>Items Must be Completed by Person Who Pronounces or Certifies Death.</h3>
+            <hr>
+
+            <label for="deadDate"> Date Pronounced Dead</label>
+                <input type="date" id="deadDate" name="deathCertifier" value="Date Pronounced Dead">
+            <label for="deadTime"> Time Pronounced Dead</label>
+                <input type="time" id="deadTime" name="deathCertifier" value="Time Pronounced Dead">
+            <label for="deathCertifierSign">Signature Of Person Pronouncing Death</label>
+                <input type="text" id="deathCertifierSign" name="deathCertifier" value="Signature Of Person Pronouncing Death">
+            <label for="licenceNumber">License Number</label>
+                <input type="number" id="licenceNumber" name="deathCertifier" value="License Number">
+            <label for="dateSigned">Date Signed</label>
+                <input type="date" id="dateSigned" name="deathCertifier" value="Date Signed">
+            <label for="actualDofBirth">Actual Or Presumed Date Of Birth</label>
+                <input type="date" id="actualDofBirth" name="deathCertifier" value="Actual Or Presumed Date Of Birth">
+            <label for="actualTofBirth">Actual Or Presumed Time Of Birth</label>
+                <input type="date" id="actualTofBirth" name="deathCertifier" value="Actual Or Presumed Time Of Birth">
+
+            <label for="medicalExaminer"> Was Medical Examiner Or Coroner Contacted</label>
+                <input type="radio" id="yes" name="medicalExaminer">
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="medicalExaminer">
+                    <label for="no">No</label>
+        </div>
+
+        <div>
+            <h3>Cause of Death (See Instructions and examples)</h3>
+            <hr>
+            <div>
+                <p><span><strong>PART 1. </strong></span>Enter the chain of events -- diseased injuries, or complications -- that directly caused the death. DO NOT enter terminal events such as cardiac arrest, respiratory arrest, or ventricular fibrillation without showing the etiology. DO NOT ABBREVIATE. Enter only one cause on a line. Add additional lines if necessary.</p>
+
+                <p>Approximate interval:</p>
+
+                <label for="immediateCause">a. Immediate Cause (Final disease or Condition resulting in death)</label>
+                    <input type="text" name="causeOfDeath" id="immediateCause">
+                <label for="duetoA">Due to (or as a consequence of):</label>
+                    <input type="text" id="duetoA">
+                <label for="onsetDeathA">Onset to death</label>
+                    <input type="text" id="onsetDeathA">
+
+                <label for="sequentialCondition">b. Sequential List Conditoons, (If any, leading to the cause listed on line a.)</label>
+                    <input type="text" name="causeOfDeath" id="sequentialCondition">
+                <label for="duetoB">Due to (or as a consequence of):</label>
+                    <input type="text" id="duetoB">
+                <label for="onsetDeathB">Onset to death</label>
+                    <input type="text" id="onsetDeathB">
+
+                <label for="underlyingCause">c. Enter the Underlying Cause, (disease or injury that initiated the events resulting in death)</label>
+                    <input type="text" name="causeOfDeath" id="underlyingCause">
+                <label for="duetoC">Due to (or as a consequence of):</label>
+                    <input type="text" id="duetoC">
+                <label for="onsetDeathC">Onset to death</label>
+                    <input type="text" id="onsetDeathC">
+
+                <label for="last">d. Last</label>
+                    <input type="text" name="causeOfDeath" id="last">
+                <label for="onsetDeathD">Onset to death</label>
+                    <input type="text" id="onsetDeathD">
+            </div>
+            
+            <div>
+                <p><span><strong>PART II. </strong></span>Enter other significant conditions contributing to death but not resulting in the underlying cause given in PART I</p>
+                <textarea name="message" id="part2" cols="130" rows="10"></textarea>
+            </div>
+
+            <div>
+                <p>Was An Autopsy Performed ?</p>
+                <input type="radio" id="autopsyYes" name="autopsyInfo">
+                    <label for="autopsyYes">Yes</label>
+                <input type="radio" id="autopsyNo" name="autopsyInfo">
+                    <label for="autopsyNo">No</label>
+
+                <p>Were Autopsy Findings Available To Complete The Cause Of Death ?</p>
+                <input type="radio" id="autoFindYes" name="autopsyInfo">
+                    <label for="autoFindYes">Yes</label>
+                <input type="radio" id="autoFindNo" name="autopsyInfo">
+                    <label for="autoFindNo">No</label>
+
+                <p>Did Tobacco Use Contribute To Death ?</p>
+                <input type="radio" id="tobaccoYes" name="autopsyInfo">
+                    <label for="tobaccoYes">Yes</label>
+                <input type="radio" id="tobaccoNo" name="autopsyInfo">
+                    <label for="tobaccoNo">No</label>
+            </div>
+        </div>
+        <div>
+            <h3>If Female:</h3>
+            <hr>
+
+            <input type="radio" id="female1" name="femaleInfo" value="Not Pregnant with past year">
+                <label for="female1">Not Pregnant with past year</label>
+            <input type="radio" id="female2" name="femaleInfo" value="Pregnant a time of death">
+                <label for="female2">Pregnant a time of death</label>
+            <input type="radio" id="female3" name="femaleInfo" value="Not pregnant, but pregnant within 42 days of death">
+                <label for="female3">Not pregnant, but pregnant within 42 days of death</label>
+            <input type="radio" id="female4" name="femaleInfo" value="Not pregnant, but pregnant 43 days to 1 year before death">
+                <label for="female4">Not pregnant, but pregnant 43 days to 1 year before death</label>
+            <input type="radio" id="female5" name="femaleInfo" value="Unknown if pregnant within the past year">
+                <label for="female5">Unknown if pregnant within the past year</label>
+        </div>
+
+        <div>
+            <h3>Manner of Death</h3>
+            <hr>
+
+            <input type="radio" id="mannerDeathNatural" name="mannerOfDeath" value="Natural">
+                <label for="mannerDeathNatural">Natural</label>
+            <input type="radio" id="mannerDeathHomicide" name="mannerOfDeath" value="Homicide">
+                <label for="mannerDeathHomicide">Homicide</label>
+            <input type="radio" id="mannerDeathAccident" name="mannerOfDeath" value="Accident">
+                <label for="mannerDeathAccident">Accident</label>
+            <input type="radio" id="mannerDeathPI" name="mannerOfDeath" value="Pending Investigation">
+                <label for="mannerDeathPI">Pending Investigation</label>
+            <input type="radio" id="mannerDeathSuicide" name="mannerOfDeath" value="Suicide">
+                <label for="mannerDeathSuicide">Suicide</label>
+            <input type="radio" id="mannerDeathUndermined" name="mannerOfDeath" value="Could not be determined">
+                <label for="mannerDeathUndermined">Could not be determined</label>
+        </div>
+
+        <div>
+            <h3>Injury</h3>
+            <hr>
+            <label for="dateOfInjury">Date Of Injury</label>
+                <input type="date" id="dateOfInjury" name="injuryInfo" value="Date of Injury">
+            <label for="timeOfInjury">Time Of Injury</label>
+                <input type="time" id="timeOfInjury" name="injuryInfo" value="Time of Injury">
+            <label for="placeOfInjury">Place Of Injury</label>
+                <input type="text" id="placeOfInjury" name="injuryInfo" value="Place of Injury">
+
+            <label for="injuryAtWork">Injury At Work ?</label>
+
+            <input type="radio" name="injuryAtWork" id="injuryAtWorkYes">
+                <label for="injuryAtWorkYes">Yes</label>
+            <input type="radio" name="injuryAtWork" id="injuryAtWorkNo">
+                <label for="injuryAtWorkNo">No</label>
+        </div>
+
+        <div>
+            <h3>Location Of Injury</h3>
+            <hr>
+
+            <label for="injuryLocationState">State</label>
+                <input type="text" name="injuryLocation" id="injuryLocationState">
+            <label for="injuryLocationCity">City Or Town</label>
+                <input type="text" name="injuryLocation" id="injuryLocationCity">
+            <label for="injuryLocationStreet">Street and Number</label>
+                <input type="number" name="injuryLocation" id="injuryLocationStreet">
+            <label for="injuryLocationApartment">Apartment No.:</label>
+                <input type="text" name="injuryLocation" id="injuryLocationApartment">
+            <label for="injuryLocationZip">Zip Code :</label>
+                <input type="text" name="injuryLocation" id="injuryLocationZip">
+        </div>
+    </form>
+
+    
+</body>
+</html>
