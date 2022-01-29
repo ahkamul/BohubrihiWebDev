@@ -256,6 +256,75 @@
             <label for="injuryLocationZip">Zip Code :</label>
                 <input type="text" name="injuryLocation" id="injuryLocationZip">
         </div>
+
+        <div>
+            <h3>Describe How Injury Occurred :</h3>
+
+            <textarea name="descHowInjOccurred" id="desHowInjOccurred" cols="130" rows="10"></textarea>
+        </div>
+
+        <div>
+            <h3>If Transportation Injury</h3>
+            <hr>
+
+            <h4>Specify:</h4>
+
+            <input type="radio" name="transInjDriver" id="transInjDriver">
+                <label for="transInjDriver">Driver / Operator</label>
+            <input type="radio" name="transInjPassenger" id="transInjPassenger">
+                <label for="transInjPassenger">Passenger</label>
+            <input type="radio" name="transInjPedestrian" id="transInjPedestrian">
+                <label for="transInjPedestrian">Pedestrian</label>
+            <input type="radio" name="transInjOther" id="transInjOther">
+                <label for="transInjOther">Other (Specify):</label>
+                    <input type="text" name="transInjOtherInp" id="transInjOtherInp">
+        </div>
+
+        <div>
+            <h3>Certifier</h3>
+            <hr>
+
+            <h4>Check Only One:</h4>
+
+            <input type="radio" name="certifier1" id="certifier1">
+                <label for="certifier1">Certifying Physician - To the best of my knowledge, death occurred due to the cause(s) and manner stated</label> <br>
+            <input type="radio" name="certifier2" id="certifier2">
+                <label for="certifier2">Pronouncing and Certifying Physician - To the best of my knowledge, death occurred at the time, date and place and due to the cause(s) and manner stated</label>  <br>
+            <input type="radio" name="certifier3" id="certifier3">
+                <label for="certifier3">Medical Examiner Or Coroner - On the basis of examination and/or investigation, in my opinion, death occurred at the time, date and place, and due to the cause(s) and manner stated</label> <br>
+
+            <label for="signCertifier">Signature of Certifier:</label>
+                <input type="text" name="signCertifier" id="signCertifier">
+        </div>
+
+        <div>
+            <h3>Person Completing Cause Of Death</h3>
+            <hr>
+
+            <label for="perCompCauseName">Name</label>
+                <input type="text" name="perCompCauseName" id="perCompCauseName">
+            <label for="perCompCauseAddress">Address</label>
+                <input type="text" name="perCompCauseAddress" id="perCompCauseAddress">
+            <label for="perCompCauseZip">ZIP Code</label>
+                <input type="text" name="perCompCauseZip" id="perCompCauseZip">
+            <hr>
+
+            <label for="certifierTitle">Title of Certifier</label>
+                <input type="text" name="certifierTitle" id="certifierTitle">
+            <label for="certifierLicense">License Number</label>
+                <input type="number" name="certifierLicense" id="certifierLicense">
+            <label for="certifierDate">Date Certified</label>
+                <input type="date" name="certifierDate" id="certifierDate">
+            <hr>
+        </div>
+
+        <div>
+            <p>Rev. 1.1 - 2013-09-13</p>
+            <p>Template Rev. 10.3</p>
+
+            <p>Copyright &copy; 2013 : IHE International, Inc.</p>
+        </div>
+
     </form>
 
     
