@@ -1,0 +1,35 @@
+.first-list{
+    list-style-type: upper-roman;
+    font-size: 30px;
+    /* list-style-image: url('sqpurple.gif'); */
+}
+
+.fifth-list-inside{
+    list-style-position: inside;
+
+}
+
+.fifth-list-outside{
+    list-style-position: outside;
+
+}
+
+.second-list{
+    list-style-type: none;
+    /* background-color: #ff9999; */
+}
+
+.third-list{
+    background-color: #ff9999;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.third-list li{
+    background-color: #ffe5e5;
+    padding: 10px;
+    margin: 10px 10px 10px 50px;
+    font-size: 30px;
+    color: #60a1e5;
+    
+}
