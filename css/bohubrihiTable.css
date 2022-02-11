@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.bohubrihi-table {
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+.bohubrihi-table table {
+    background-color: blue;
+    margin: auto;
+    width: 700px;
+    border: 6px solid wheat;
+    border-collapse: collapse;
+    
+}
+
+.bohubrihi-table table th, td {
+    border: 3px solid rgb(176, 179, 127);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+caption {
+    padding: 10px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    background-color: beige;
+}
