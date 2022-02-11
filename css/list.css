@@ -23,6 +23,8 @@
     background-color: #ff9999;
     padding: 20px;
     font-size: 30px;
+    width: 20%;
+    margin: auto;
 }
 
 .third-list li{
